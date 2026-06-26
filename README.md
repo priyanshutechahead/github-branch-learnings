@@ -36,3 +36,18 @@ To comply with international financial auditing standards, all developers must s
                       │    - Signed-off-by: Sarah Jenkins      │──────────────────────┘
                       │    - Reviewed-by: Marcus Vance         │
                       └────────────────────────────────────────┘
+## Code-to-Vault Hierarchy (Block View)
+### Think of it as a shipping container. The Branch is the box, and everything else sits neatly inside it:
+```text
+📦 BRANCH: feature/sec-402_high-value-fraud-alert
+ │
+ ├── 🏷️ TASK: [SEC-402] Trigger fraud alert for P2P transfers > $10,000
+ │    │
+ │    ├── 📝 DESCRIPTION
+ │    │    ├── 💡 Context: Meet 2026 AML compliance laws.
+ │    │    ├── ⚙️ Changes: Added logic to TransferService.ts + SMS OTP.
+ │    │    └── 🧪 Testing: Verified $9,999 passes; $10,501 flags.
+ │    │
+ │    └── ✍️ SIGNATURES
+ │         ├── Signed-off-by: Sarah Jenkins <s.jenkins@securebank.com>
+ │         └── Reviewed-by: Marcus Vance <m.vance@securebank.com>
