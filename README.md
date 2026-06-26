@@ -1,4 +1,4 @@
-# 🏦 SecureBank P2P Core Service
+# 🏦 SecureBank P2P Core Service (example)
 
 Welcome to the core service backend for **SecureBank's peer-to-peer (P2P) transaction pipeline**. This repository manages high-throughput, compliant transaction routing, and financial operations.
 
